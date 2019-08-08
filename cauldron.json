@@ -13,12 +13,26 @@
               "codePush": {},
               "container": {
                 "jsApiImpls": [],
-                "miniApps": [],
-                "nativeDeps": []
+                "miniApps": [
+                  "git+ssh://git@github.com/electrode-io/MoviesReloadedMiniApp.git#a0b3dc3fe654fef8500bb3a2637c157f36272a68"
+                ],
+                "nativeDeps": [
+                  "ernnavigation-api-impl-native@1.1.1",
+                  "ernnavigation-api@1.0.5",
+                  "react-native-electrode-bridge@1.5.19",
+                  "react-native@0.59.4"
+                ],
+                "miniAppsBranches": [
+                  "git+ssh://git@github.com/electrode-io/MoviesReloadedMiniApp.git#master"
+                ],
+                "ernVersion": "0.37.0"
               },
               "isReleased": false,
               "nativeDeps": [],
-              "yarnLocks": {}
+              "yarnLocks": {
+                "container": "db568d2c-5da6-49d9-8ec0-1d8baef0da08"
+              },
+              "containerVersion": "1.0.0"
             }
           ]
         }
