@@ -2963,9 +2963,9 @@ morgan@^1.9.0:
     on-finished "~2.3.0"
     on-headers "~1.0.1"
 
-"movies-reloaded-miniapp@git+ssh://git@github.com/electrode-io/MoviesReloadedMiniApp.git#a0b3dc3fe654fef8500bb3a2637c157f36272a68":
+"movies-reloaded-miniapp@git+ssh://git@github.com/electrode-io/movies-reloaded-miniapp.git#a0b3dc3fe654fef8500bb3a2637c157f36272a68":
   version "0.0.1"
-  resolved "git+ssh://git@github.com/electrode-io/MoviesReloadedMiniApp.git#a0b3dc3fe654fef8500bb3a2637c157f36272a68"
+  resolved "git+ssh://git@github.com/electrode-io/movies-reloaded-miniapp.git#a0b3dc3fe654fef8500bb3a2637c157f36272a68"
   dependencies:
     ern-navigation "^1.0.0"
     moment "^2.24.0"
